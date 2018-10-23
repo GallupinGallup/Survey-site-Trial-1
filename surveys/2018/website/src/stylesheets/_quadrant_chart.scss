@@ -1,0 +1,54 @@
+.block__content--radar {
+    display: flex;
+}
+.block__description--radar {
+}
+.block__chart--radar {
+    flex: 0 0 60%;
+}
+.radar__chart {
+    svg {
+        display: block;
+        margin-top: -20px;
+    }
+}
+.radar__chart__quadrant {
+    font-size: $large-font;
+    // @include font-bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    @include font-regular;
+}
+
+.radar__chart__label {
+    font-size: $small-font;
+    @include font-regular;
+}
+.radar__chart__ticklabel {
+    font-size: $smaller-font;
+}
+.radar__chart__quadrants {
+    margin-top: 40px;
+}
+.radar__chart__quadrants__title {
+    text-align: center;
+    display: none;
+}
+.radar__chart__quadrants__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    font-size: $small-font;
+
+    border-top: 1px solid $dark-border-color;
+    border-left: 1px solid $dark-border-color;
+}
+
+.radar__chart__quadrants__item {
+    padding: $spacing;
+    border-bottom: 1px solid $dark-border-color;
+    border-right: 1px solid $dark-border-color;
+    strong {
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,206 @@
+tool_id: nativescript
+appears_in_surveys:
+    - '2016'
+    - '2017'
+    - '2018'
+experience:
+    all:
+        never_heard: 23826
+        not_interested: 15770
+        interested: 12450
+        would_use: 1046
+        would_not_use: 778
+    by_survey:
+        -
+            survey: '2016'
+            counts:
+                never_heard: 5027
+                not_interested: 2487
+                interested: 2380
+                would_use: 208
+                would_not_use: 148
+            percentages:
+                never_heard: 49
+                not_interested: 24.3
+                interested: 23.2
+                would_use: 2
+                would_not_use: 1.4
+        -
+            survey: '2017'
+            counts:
+                never_heard: 10877
+                not_interested: 6610
+                interested: 5248
+                would_use: 503
+                would_not_use: 428
+            percentages:
+                never_heard: 46
+                not_interested: 27.9
+                interested: 22.2
+                would_use: 2.1
+                would_not_use: 1.8
+        -
+            survey: '2018'
+            counts:
+                never_heard: 7922
+                not_interested: 6673
+                interested: 4822
+                would_use: 335
+                would_not_use: 202
+            percentages:
+                never_heard: 39.7
+                not_interested: 33.4
+                interested: 24.2
+                would_use: 1.7
+                would_not_use: 1
+reasons:
+    like:
+        -
+            id: elegant_programming_style_patterns
+            count: 173
+        -
+            id: good_documentation
+            count: 167
+        -
+            id: fast_performance
+            count: 165
+        -
+            id: easy_learning_curve
+            count: 147
+        -
+            id: full_featured_powerful
+            count: 146
+        -
+            id: powerful_developer_tooling
+            count: 145
+        -
+            id: rich_package_ecosystem
+            count: 126
+        -
+            id: growing_momentum_popularity
+            count: 117
+        -
+            id: backed_by_a_great_team_company
+            count: 115
+        -
+            id: robust_less_error_prone_code
+            count: 96
+        -
+            id: well_established_option
+            count: 94
+        -
+            id: simple_lightweight
+            count: 66
+        -
+            id: stable_backwards_compatible
+            count: 65
+    dislike:
+        -
+            id: poor_performance
+            count: 62
+        -
+            id: buggy_error_prone_code
+            count: 62
+        -
+            id: clumsy_programming_style
+            count: 60
+        -
+            id: limited_lacking_in_features
+            count: 59
+        -
+            id: bad_documentation
+            count: 54
+        -
+            id: small_package_ecosystem
+            count: 53
+        -
+            id: lacking_developer_tooling
+            count: 50
+        -
+            id: concerns_about_the_team_company
+            count: 44
+        -
+            id: bloated_complex
+            count: 43
+        -
+            id: hard_learning_curve
+            count: 43
+        -
+            id: diminishing_momentum_popularity
+            count: 39
+        -
+            id: fast_changing_breaks_often
+            count: 22
+        -
+            id: new_untested_option
+            count: 19
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 209
+                percentage: 2.2
+            -
+                continent: 'North America'
+                total: 8326
+                count: 141
+                percentage: 1.7
+            -
+                continent: Asia
+                total: 1226
+                count: 29
+                percentage: 2.4
+            -
+                continent: 'South America'
+                total: 1014
+                count: 32
+                percentage: 3.2
+            -
+                continent: Oceania
+                total: 958
+                count: 15
+                percentage: 1.6
+            -
+                continent: Africa
+                total: 906
+                count: 37
+                percentage: 4.1
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 146
+                percentage: 1.6
+            -
+                continent: 'North America'
+                total: 6077
+                count: 91
+                percentage: 1.5
+            -
+                continent: Oceania
+                total: 1205
+                count: 15
+                percentage: 1.2
+            -
+                continent: Asia
+                total: 1170
+                count: 20
+                percentage: 1.7
+            -
+                continent: 'South America'
+                total: 967
+                count: 29
+                percentage: 3
+            -
+                continent: Africa
+                total: 908
+                count: 29
+                percentage: 3.2
+    -
+        survey: '2016'
+        by_continent: []

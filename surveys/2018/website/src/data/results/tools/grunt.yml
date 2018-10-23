@@ -1,0 +1,113 @@
+tool_id: grunt
+appears_in_surveys:
+    - '2016'
+    - '2017'
+experience:
+    all:
+        would_not_use: 14858
+        would_use: 7801
+        not_interested: 7255
+        interested: 3067
+        never_heard: 935
+    by_survey:
+        -
+            survey: '2016'
+            counts:
+                would_not_use: 4248
+                would_use: 2830
+                not_interested: 1988
+                interested: 978
+                never_heard: 206
+            percentages:
+                would_not_use: 41.4
+                would_use: 27.6
+                not_interested: 19.4
+                interested: 9.5
+                never_heard: 2
+        -
+            survey: '2017'
+            counts:
+                would_not_use: 10610
+                would_use: 4971
+                not_interested: 5267
+                interested: 2089
+                never_heard: 729
+            percentages:
+                would_not_use: 44.8
+                would_use: 21
+                not_interested: 22.3
+                interested: 8.8
+                never_heard: 3.1
+reasons:
+    like: []
+    dislike: []
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 1785
+                percentage: 18.5
+            -
+                continent: 'North America'
+                total: 8326
+                count: 2040
+                percentage: 24.5
+            -
+                continent: Asia
+                total: 1226
+                count: 196
+                percentage: 16
+            -
+                continent: 'South America'
+                total: 1014
+                count: 204
+                percentage: 20.1
+            -
+                continent: Oceania
+                total: 958
+                count: 218
+                percentage: 22.8
+            -
+                continent: Africa
+                total: 906
+                count: 206
+                percentage: 22.7
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 0
+                percentage: 0
+            -
+                continent: 'North America'
+                total: 6077
+                count: 0
+                percentage: 0
+            -
+                continent: Oceania
+                total: 1205
+                count: 0
+                percentage: 0
+            -
+                continent: Asia
+                total: 1170
+                count: 0
+                percentage: 0
+            -
+                continent: 'South America'
+                total: 967
+                count: 0
+                percentage: 0
+            -
+                continent: Africa
+                total: 908
+                count: 0
+                percentage: 0
+    -
+        survey: '2016'
+        by_continent: []

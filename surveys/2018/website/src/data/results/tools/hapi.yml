@@ -1,0 +1,98 @@
+tool_id: hapi
+appears_in_surveys:
+    - '2017'
+experience:
+    all:
+        never_heard: 13380
+        not_interested: 4651
+        interested: 3479
+        would_use: 1567
+        would_not_use: 589
+    by_survey:
+        -
+            survey: '2017'
+            counts:
+                never_heard: 13380
+                not_interested: 4651
+                interested: 3479
+                would_use: 1567
+                would_not_use: 589
+            percentages:
+                never_heard: 56.5
+                not_interested: 19.7
+                interested: 14.7
+                would_use: 6.6
+                would_not_use: 2.5
+reasons:
+    like: []
+    dislike: []
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 616
+                percentage: 6.4
+            -
+                continent: 'North America'
+                total: 8326
+                count: 608
+                percentage: 7.3
+            -
+                continent: Asia
+                total: 1226
+                count: 58
+                percentage: 4.7
+            -
+                continent: 'South America'
+                total: 1014
+                count: 66
+                percentage: 6.5
+            -
+                continent: Oceania
+                total: 958
+                count: 77
+                percentage: 8
+            -
+                continent: Africa
+                total: 906
+                count: 59
+                percentage: 6.5
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 0
+                percentage: 0
+            -
+                continent: 'North America'
+                total: 6077
+                count: 0
+                percentage: 0
+            -
+                continent: Oceania
+                total: 1205
+                count: 0
+                percentage: 0
+            -
+                continent: Asia
+                total: 1170
+                count: 0
+                percentage: 0
+            -
+                continent: 'South America'
+                total: 967
+                count: 0
+                percentage: 0
+            -
+                continent: Africa
+                total: 908
+                count: 0
+                percentage: 0
+    -
+        survey: '2016'
+        by_continent: []

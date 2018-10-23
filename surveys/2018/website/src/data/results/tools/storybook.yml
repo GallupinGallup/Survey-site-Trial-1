@@ -1,0 +1,176 @@
+tool_id: storybook
+appears_in_surveys:
+    - '2018'
+experience:
+    all:
+        never_heard: 10547
+        interested: 4767
+        would_use: 3085
+        not_interested: 1225
+        would_not_use: 379
+    by_survey:
+        -
+            survey: '2018'
+            counts:
+                never_heard: 10547
+                interested: 4767
+                would_use: 3085
+                not_interested: 1225
+                would_not_use: 379
+            percentages:
+                never_heard: 52.7
+                interested: 23.8
+                would_use: 15.4
+                not_interested: 6.1
+                would_not_use: 1.9
+reasons:
+    like:
+        -
+            id: easy_learning_curve
+            count: 1422
+        -
+            id: good_documentation
+            count: 1300
+        -
+            id: powerful_developer_tooling
+            count: 1248
+        -
+            id: well_established_option
+            count: 1092
+        -
+            id: elegant_programming_style_patterns
+            count: 1069
+        -
+            id: simple_lightweight
+            count: 898
+        -
+            id: full_featured_powerful
+            count: 797
+        -
+            id: rich_package_ecosystem
+            count: 673
+        -
+            id: growing_momentum_popularity
+            count: 604
+        -
+            id: robust_less_error_prone_code
+            count: 448
+        -
+            id: fast_performance
+            count: 396
+        -
+            id: backed_by_a_great_team_company
+            count: 264
+        -
+            id: stable_backwards_compatible
+            count: 144
+    dislike:
+        -
+            id: clumsy_programming_style
+            count: 140
+        -
+            id: bloated_complex
+            count: 128
+        -
+            id: limited_lacking_in_features
+            count: 127
+        -
+            id: bad_documentation
+            count: 92
+        -
+            id: buggy_error_prone_code
+            count: 90
+        -
+            id: poor_performance
+            count: 71
+        -
+            id: lacking_developer_tooling
+            count: 66
+        -
+            id: hard_learning_curve
+            count: 50
+        -
+            id: concerns_about_the_team_company
+            count: 26
+        -
+            id: fast_changing_breaks_often
+            count: 24
+        -
+            id: diminishing_momentum_popularity
+            count: 22
+        -
+            id: small_package_ecosystem
+            count: 21
+        -
+            id: new_untested_option
+            count: 13
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 0
+                percentage: 0
+            -
+                continent: 'North America'
+                total: 8326
+                count: 0
+                percentage: 0
+            -
+                continent: Asia
+                total: 1226
+                count: 0
+                percentage: 0
+            -
+                continent: 'South America'
+                total: 1014
+                count: 0
+                percentage: 0
+            -
+                continent: Oceania
+                total: 958
+                count: 0
+                percentage: 0
+            -
+                continent: Africa
+                total: 906
+                count: 0
+                percentage: 0
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 1487
+                percentage: 16.2
+            -
+                continent: 'North America'
+                total: 6077
+                count: 952
+                percentage: 15.7
+            -
+                continent: Oceania
+                total: 1205
+                count: 193
+                percentage: 16
+            -
+                continent: Asia
+                total: 1170
+                count: 160
+                percentage: 13.7
+            -
+                continent: 'South America'
+                total: 967
+                count: 116
+                percentage: 12
+            -
+                continent: Africa
+                total: 908
+                count: 71
+                percentage: 7.8
+    -
+        survey: '2016'
+        by_continent: []

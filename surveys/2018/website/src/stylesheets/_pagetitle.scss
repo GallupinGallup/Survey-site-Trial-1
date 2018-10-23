@@ -1,0 +1,97 @@
+.pagetitle__wrapper{
+    border-top: 1px solid $dark-border-color;
+    border-bottom: 1px solid $dark-border-color;
+    margin-bottom: $spacing * 2;
+}
+.pagetitle__wrapper--title {
+    // border-bottom: 2px solid $border-color;
+}
+.pagetitle__wrapper--pagination {
+    // border-top: 2px solid $border-color;
+}
+
+.pagetitle {
+    font-size: $larger-font;
+}
+
+.pagetitle__inner {
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    @include medium-large {
+        @include flex-center;
+        justify-content: space-between;
+    }
+    .pagetitle__wrapper--title & {
+        padding: $spacing;
+        background: $bg-color;
+    }
+}
+
+.pagetitle__main {
+    margin-bottom: 0;
+    @include small {
+        margin-bottom: $spacing/2;
+    }
+    @include small-medium {
+        font-size: $large-font;
+        line-height: 1.4;
+    }
+    @include large {
+        font-size: $largest-font;
+        flex-grow: 1;
+    }
+}
+
+.pagination__link {
+    padding: $spacing;
+    display: block;
+    @include secondary-font;
+    white-space: nowrap;
+    flex: 0 0 50%;
+    border-right: 1px solid $dark-border-color;
+    @include small {
+        font-size: $small-font;
+    }
+    @include medium-large {
+        font-size: $medium-font;
+    }
+    &:hover{
+        background: rgba(255,255,255,0.1);
+    }
+}
+
+.pagination__link__label {
+    @include small {
+        display: inline-block;
+    }
+    @include medium-large {
+        .pagetitle__wrapper--title & {
+            display: none;
+        }
+    }
+}
+.pagination__previous {
+    @include small-medium {
+        text-align: center;
+        margin-bottom: $spacing/2;
+    }
+    @include large {
+        text-align: left;
+        // margin-right: $spacing;
+    }
+}
+
+.pagination__next {
+    border: none;
+    @include small-medium {
+        text-align: center;
+    }
+    @include large {
+        text-align: right;
+        // margin-left: $spacing;
+    }
+    span + &{
+        border-left: 1px solid $dark-border-color;
+    }
+}

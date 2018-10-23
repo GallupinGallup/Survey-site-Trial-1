@@ -1,0 +1,36 @@
+{
+  "name": "state-of-js",
+  "version": "1.0.0",
+  "description": "State of js survey",
+  "contributors": [
+    {
+      "name": "Sacha Greif"
+    },
+    {
+      "name": "Michael Rambeau"
+    },
+    {
+      "name": "Raphaël Benitte"
+    }
+  ],
+  "repository": "git@github.com:StateOfJS/StateOfJS.git",
+  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": "^8.10.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "dotenv": "^6.0.0",
+    "eslint": "^5.6.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3",
+    "puppeteer": "^1.8.0",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

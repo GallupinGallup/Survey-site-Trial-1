@@ -1,0 +1,113 @@
+tool_id: browserify
+appears_in_surveys:
+    - '2016'
+    - '2017'
+experience:
+    all:
+        not_interested: 9332
+        would_use: 8255
+        would_not_use: 7571
+        interested: 5685
+        never_heard: 3073
+    by_survey:
+        -
+            survey: '2016'
+            counts:
+                not_interested: 2420
+                would_use: 3035
+                would_not_use: 1786
+                interested: 2089
+                never_heard: 920
+            percentages:
+                not_interested: 23.6
+                would_use: 29.6
+                would_not_use: 17.4
+                interested: 20.4
+                never_heard: 9
+        -
+            survey: '2017'
+            counts:
+                not_interested: 6912
+                would_use: 5220
+                would_not_use: 5785
+                interested: 3596
+                never_heard: 2153
+            percentages:
+                not_interested: 29.2
+                would_use: 22.1
+                would_not_use: 24.4
+                interested: 15.2
+                never_heard: 9.1
+reasons:
+    like: []
+    dislike: []
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 2056
+                percentage: 21.3
+            -
+                continent: 'North America'
+                total: 8326
+                count: 1964
+                percentage: 23.6
+            -
+                continent: Asia
+                total: 1226
+                count: 220
+                percentage: 17.9
+            -
+                continent: 'South America'
+                total: 1014
+                count: 215
+                percentage: 21.2
+            -
+                continent: Oceania
+                total: 958
+                count: 238
+                percentage: 24.8
+            -
+                continent: Africa
+                total: 906
+                count: 178
+                percentage: 19.6
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 0
+                percentage: 0
+            -
+                continent: 'North America'
+                total: 6077
+                count: 0
+                percentage: 0
+            -
+                continent: Oceania
+                total: 1205
+                count: 0
+                percentage: 0
+            -
+                continent: Asia
+                total: 1170
+                count: 0
+                percentage: 0
+            -
+                continent: 'South America'
+                total: 967
+                count: 0
+                percentage: 0
+            -
+                continent: Africa
+                total: 908
+                count: 0
+                percentage: 0
+    -
+        survey: '2016'
+        by_continent: []

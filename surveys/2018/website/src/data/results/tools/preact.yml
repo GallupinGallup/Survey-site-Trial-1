@@ -1,0 +1,176 @@
+tool_id: preact
+appears_in_surveys:
+    - '2018'
+experience:
+    all:
+        not_interested: 7446
+        never_heard: 5668
+        interested: 5533
+        would_use: 1251
+        would_not_use: 248
+    by_survey:
+        -
+            survey: '2018'
+            counts:
+                not_interested: 7446
+                never_heard: 5668
+                interested: 5533
+                would_use: 1251
+                would_not_use: 248
+            percentages:
+                not_interested: 37
+                never_heard: 28.1
+                interested: 27.5
+                would_use: 6.2
+                would_not_use: 1.2
+reasons:
+    like:
+        -
+            id: fast_performance
+            count: 957
+        -
+            id: simple_lightweight
+            count: 921
+        -
+            id: elegant_programming_style_patterns
+            count: 552
+        -
+            id: easy_learning_curve
+            count: 445
+        -
+            id: good_documentation
+            count: 325
+        -
+            id: robust_less_error_prone_code
+            count: 254
+        -
+            id: powerful_developer_tooling
+            count: 195
+        -
+            id: growing_momentum_popularity
+            count: 184
+        -
+            id: well_established_option
+            count: 182
+        -
+            id: rich_package_ecosystem
+            count: 180
+        -
+            id: full_featured_powerful
+            count: 180
+        -
+            id: stable_backwards_compatible
+            count: 157
+        -
+            id: backed_by_a_great_team_company
+            count: 137
+    dislike:
+        -
+            id: limited_lacking_in_features
+            count: 84
+        -
+            id: small_package_ecosystem
+            count: 64
+        -
+            id: concerns_about_the_team_company
+            count: 59
+        -
+            id: diminishing_momentum_popularity
+            count: 54
+        -
+            id: lacking_developer_tooling
+            count: 47
+        -
+            id: buggy_error_prone_code
+            count: 42
+        -
+            id: clumsy_programming_style
+            count: 27
+        -
+            id: bad_documentation
+            count: 26
+        -
+            id: new_untested_option
+            count: 25
+        -
+            id: fast_changing_breaks_often
+            count: 14
+        -
+            id: poor_performance
+            count: 10
+        -
+            id: hard_learning_curve
+            count: 8
+        -
+            id: bloated_complex
+            count: 5
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 0
+                percentage: 0
+            -
+                continent: 'North America'
+                total: 8326
+                count: 0
+                percentage: 0
+            -
+                continent: Asia
+                total: 1226
+                count: 0
+                percentage: 0
+            -
+                continent: 'South America'
+                total: 1014
+                count: 0
+                percentage: 0
+            -
+                continent: Oceania
+                total: 958
+                count: 0
+                percentage: 0
+            -
+                continent: Africa
+                total: 906
+                count: 0
+                percentage: 0
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 629
+                percentage: 6.9
+            -
+                continent: 'North America'
+                total: 6077
+                count: 365
+                percentage: 6
+            -
+                continent: Oceania
+                total: 1205
+                count: 79
+                percentage: 6.6
+            -
+                continent: Asia
+                total: 1170
+                count: 53
+                percentage: 4.5
+            -
+                continent: 'South America'
+                total: 967
+                count: 42
+                percentage: 4.3
+            -
+                continent: Africa
+                total: 908
+                count: 42
+                percentage: 4.6
+    -
+        survey: '2016'
+        by_continent: []

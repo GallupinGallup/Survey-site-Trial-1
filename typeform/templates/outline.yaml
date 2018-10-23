@@ -1,0 +1,285 @@
+# the survey outline
+---
+- title: JavaScript Flavors
+  description: JavaScript variants and languages that compile to JavaScript.
+  id: flavors 
+  questions:
+    - Reason
+    - ClojureScript
+    - Elm
+    - Flow
+    - TypeScript
+    - ES6+|es6
+    # - PureScript
+    # - Plain JavaScript|javascript
+    - Other|flavors_other
+    - Rating|flavors_rating
+- title: Front-End
+  description: Client-side JavaScript frameworks.
+  questions: 
+    - React
+    - Angular
+    - Ember
+    - Polymer
+    - Vue.js|vue
+    - Preact
+    # - Hyperapp
+    # - Riot
+    # - Inferno
+    - Other|frontend_other
+    - Rating|frontend_rating
+- title: Data Layer
+  description: Technologies dealing with managing data and state on the client (databases excluded).
+  questions:
+    - Redux
+    - GraphQL
+    - Relay
+    - Apollo
+    - Mobx
+    # - Firebase
+    # - VueX
+    - Other|datalayer_other
+    - Rating|datalayer_rating
+# - title: Back-end
+#   questions:
+#     - Node.js
+#     - Rails
+#     - PHP
+#     - Java
+#     - .NET|dotnet
+#     - Other|backend_other
+#     - Rating|backend_rating
+- title: Back-end
+  id: nodebackends
+  description: If you don't use a Node-based solution on the back-end, please pick "other"
+  questions:
+    # - Nuxt.js
+    - Meteor
+    - Express
+    - Next.js
+    # - Gatsby.js
+    - Koa
+    - Sails
+    # - Hapi
+    # - Loopback
+    - Feathers
+    - Other|nodebackends_other
+    - Rating|nodebackends_rating
+- title: Testing
+  description: Libraries and tools used for testing your code. 
+  questions:
+    - Storybook
+    - Mocha
+    - Jasmine
+    - Jest
+    - Enzyme
+    - Ava
+    - Karma
+    # - Cypress
+    # - Puppeteer
+    - Other|testing_other
+    - Rating|testing_rating
+# - title: CSS
+#   questions:
+#     - SASS/SCSS
+#     - Plain CSS
+#     - LESS
+#     - CSS-in-JS|cssinjs
+#     - Stylus
+#     - Atomic CSS
+#     - Tailwind CSS
+#     - Other|css_other
+#     - Rating|css_rating
+- title: Mobile & Desktop
+  id: mobiledesktop
+  description: Tools for running JavaScript on other platforms.
+  questions: 
+    - Electron
+    - React Native
+    - PhoneGap/Cordova
+    - NativeScript
+    - Ionic
+    - Native Apps
+    # - Weex
+    # - Flutter
+    # - Haxe
+    - Other|mobiledesktop_other
+    - Rating|mobiledesktop_rating
+- title: Other Tools
+  description: For these tools & technologies, just check the ones that you use regularly. 
+  questions:
+    - title: Other Languages
+      template: multiple
+      description: What other programming languages do you regularly use?
+      options:
+        - PHP
+        - Ruby
+        - Python
+        - Go
+        - Rust
+        - Java
+        - C/C++
+        - Objective-C
+        - Scala
+        - Swift
+        - C#
+        - .NET
+        - Haskell
+        - OCaml
+    - title: Browser APIs
+      template: multiple
+      description: Which browser APIs have you used before?
+      options:
+        - Progressive Web Apps
+        - WebAssembly
+        - Service Workers
+        - WebRTC
+        - Web Speech API
+        - WebGL
+        - Web Audio API
+        - Web Components
+        - Web Animations API
+        - WebVR
+    - title: Build Tools
+      description: Which build tool(s) are you currently using?
+      template: multiple
+      options: 
+        # - NPM
+        # - Yarn
+        - Webpack
+        - Parcel
+        - Gulp
+        - Browserify
+        - Grunt
+        - Rollup
+        - Meteor
+    # - title: Package Managers
+    #   description: Which package managers are you currently using?
+    #   template: multiple
+    #   options: 
+    #     - NPM
+    #     - Yarn
+    #     - Bower
+    - title: Utility Libraries
+      description: Which utility libraries do you regularly use?
+      template: multiple
+      options: 
+        - jQuery
+        - Underscore
+        - Lodash
+        - Ramda
+        - Moment
+        - Date-fns
+        # - Sugar
+        # - Lazy
+    - title: Text Editors
+      description: Which text editor(s) do you regularly use?
+      template: multiple
+      options:
+        - VS Code
+        - Sublime Text
+        - Atom
+        - Vim
+        - Emacs
+        - Webstorm
+    # - title: Code Linters
+    #   template: multiple
+    #   options: 
+    #     - ESLint
+    #     - Prettier
+    #     - JSHint
+    #     - StandardJS
+- title: Opinion Questions
+  description: How do you feel about the state of JavaScript?
+  questions:
+    - title: JavaScript is moving in the right direction
+      template: opinion
+    - title: Building JavaScript apps is overly complex right now
+      template: opinion
+    - title: JavaScript is over-used online
+      template: opinion
+    - title: I enjoy building JavaScript apps
+      template: opinion
+    - title: I would like JavaScript to be my main programming language
+      template: opinion
+    - title: The JavaScript ecosystem is changing too fast
+      template: opinion
+    - title: This survey is too damn long!
+      template: opinion
+- title: About You
+  description: Let's get to know the real you.
+  questions:
+    - title: Years of Experience
+      description: How long you've been working in the code mines.
+      template: multiple
+      allowmultiple: false
+      allowother: false
+      randomize: false
+      options:
+        - Less than one year
+        - 1-2 years
+        - 2-5 years
+        - 5-10 years
+        - 10-20 years
+        - 20+ years
+    - title: Company Size
+      template: multiple
+      allowmultiple: false
+      allowother: false
+      randomize: false
+      options:
+        - Just me
+        - 1-5 people
+        - 5-10 people
+        - 10-20 people
+        - 20-50 people
+        - 50-100 people
+        - 100-1000 people
+        - 1000+ people
+    - title: Yearly Salary
+      description: In USD
+      template: multiple
+      allowmultiple: false
+      allowother: false
+      randomize: false
+      options: 
+        - I work for free :(
+        - $0-$10k
+        - $10k-$30k
+        - $30k-$50k
+        - $50k-$100k
+        - $100k-$200k
+        - $200k+
+    # - title: Tabs or Spaces?
+    #   template: multiple
+    #   allowmultiple: false
+    #   options: 
+    #     - Tabs for life!
+    #     - Spaces rule!
+    # - title: "Semicolons: Yes or no?"
+    #   template: multiple
+    #   allowmultiple: false
+    #   options:
+    #     - Yes, always
+    #     - Not if I can avoid it
+    #     - It depends on the project
+    - title: How did you find out about this survey?
+      template: text
+    - title: Your Gender
+      template: multiple
+      allowmultiple: false
+      options: 
+        - Female
+        - Male
+        - Non-binary/ third gender
+        - Prefer not to say
+    - title: Your Email
+      description: If you'd like to be notified when survey results are available. Your email won't be used for any other purpose.
+      template: email
+    - title: Your Country
+      template: text
+    - title: Your City
+      template: text
+    - title: Other Comments
+      description: Things we missed, feedback on the survey, your favorite color, etc.
+      template: longtext

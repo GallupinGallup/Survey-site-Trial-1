@@ -1,0 +1,191 @@
+tool_id: phonegap-cordova
+appears_in_surveys:
+    - '2017'
+    - '2018'
+experience:
+    all:
+        not_interested: 18055
+        would_not_use: 8590
+        never_heard: 5951
+        interested: 5607
+        would_use: 5421
+    by_survey:
+        -
+            survey: '2017'
+            counts:
+                not_interested: 9171
+                would_not_use: 4676
+                never_heard: 3188
+                interested: 3252
+                would_use: 3379
+            percentages:
+                not_interested: 38.8
+                would_not_use: 19.8
+                never_heard: 13.5
+                interested: 13.7
+                would_use: 14.3
+        -
+            survey: '2018'
+            counts:
+                not_interested: 8884
+                would_not_use: 3914
+                never_heard: 2763
+                interested: 2355
+                would_use: 2042
+            percentages:
+                not_interested: 44.5
+                would_not_use: 19.6
+                never_heard: 13.8
+                interested: 11.8
+                would_use: 10.2
+reasons:
+    like:
+        -
+            id: well_established_option
+            count: 1015
+        -
+            id: rich_package_ecosystem
+            count: 798
+        -
+            id: easy_learning_curve
+            count: 737
+        -
+            id: good_documentation
+            count: 652
+        -
+            id: full_featured_powerful
+            count: 553
+        -
+            id: powerful_developer_tooling
+            count: 500
+        -
+            id: simple_lightweight
+            count: 300
+        -
+            id: backed_by_a_great_team_company
+            count: 271
+        -
+            id: stable_backwards_compatible
+            count: 257
+        -
+            id: elegant_programming_style_patterns
+            count: 252
+        -
+            id: fast_performance
+            count: 204
+        -
+            id: robust_less_error_prone_code
+            count: 164
+        -
+            id: growing_momentum_popularity
+            count: 128
+    dislike:
+        -
+            id: poor_performance
+            count: 2370
+        -
+            id: buggy_error_prone_code
+            count: 1563
+        -
+            id: diminishing_momentum_popularity
+            count: 1544
+        -
+            id: clumsy_programming_style
+            count: 1410
+        -
+            id: bloated_complex
+            count: 1157
+        -
+            id: limited_lacking_in_features
+            count: 922
+        -
+            id: bad_documentation
+            count: 769
+        -
+            id: lacking_developer_tooling
+            count: 735
+        -
+            id: hard_learning_curve
+            count: 623
+        -
+            id: concerns_about_the_team_company
+            count: 334
+        -
+            id: fast_changing_breaks_often
+            count: 316
+        -
+            id: small_package_ecosystem
+            count: 292
+        -
+            id: new_untested_option
+            count: 64
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 1495
+                percentage: 15.5
+            -
+                continent: 'North America'
+                total: 8326
+                count: 1061
+                percentage: 12.7
+            -
+                continent: Asia
+                total: 1226
+                count: 147
+                percentage: 12
+            -
+                continent: 'South America'
+                total: 1014
+                count: 195
+                percentage: 19.2
+            -
+                continent: Oceania
+                total: 958
+                count: 128
+                percentage: 13.4
+            -
+                continent: Africa
+                total: 906
+                count: 154
+                percentage: 17
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 962
+                percentage: 10.5
+            -
+                continent: 'North America'
+                total: 6077
+                count: 519
+                percentage: 8.5
+            -
+                continent: Oceania
+                total: 1205
+                count: 120
+                percentage: 10
+            -
+                continent: Asia
+                total: 1170
+                count: 100
+                percentage: 8.5
+            -
+                continent: 'South America'
+                total: 967
+                count: 149
+                percentage: 15.4
+            -
+                continent: Africa
+                total: 908
+                count: 130
+                percentage: 14.3
+    -
+        survey: '2016'
+        by_continent: []

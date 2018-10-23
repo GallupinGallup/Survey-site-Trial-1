@@ -1,0 +1,98 @@
+tool_id: coffeescript
+appears_in_surveys:
+    - '2016'
+experience:
+    all:
+        not_interested: 6202
+        would_not_use: 2449
+        interested: 870
+        would_use: 590
+        never_heard: 139
+    by_survey:
+        -
+            survey: '2016'
+            counts:
+                not_interested: 6202
+                would_not_use: 2449
+                interested: 870
+                would_use: 590
+                never_heard: 139
+            percentages:
+                not_interested: 60.5
+                would_not_use: 23.9
+                interested: 8.5
+                would_use: 5.8
+                never_heard: 1.4
+reasons:
+    like: []
+    dislike: []
+would_use_by_continent:
+    -
+        survey: '2017'
+        by_continent:
+            -
+                continent: Europe
+                total: 9639
+                count: 0
+                percentage: 0
+            -
+                continent: 'North America'
+                total: 8326
+                count: 0
+                percentage: 0
+            -
+                continent: Asia
+                total: 1226
+                count: 0
+                percentage: 0
+            -
+                continent: 'South America'
+                total: 1014
+                count: 0
+                percentage: 0
+            -
+                continent: Oceania
+                total: 958
+                count: 0
+                percentage: 0
+            -
+                continent: Africa
+                total: 906
+                count: 0
+                percentage: 0
+    -
+        survey: '2018'
+        by_continent:
+            -
+                continent: Europe
+                total: 9162
+                count: 0
+                percentage: 0
+            -
+                continent: 'North America'
+                total: 6077
+                count: 0
+                percentage: 0
+            -
+                continent: Oceania
+                total: 1205
+                count: 0
+                percentage: 0
+            -
+                continent: Asia
+                total: 1170
+                count: 0
+                percentage: 0
+            -
+                continent: 'South America'
+                total: 967
+                count: 0
+                percentage: 0
+            -
+                continent: Africa
+                total: 908
+                count: 0
+                percentage: 0
+    -
+        survey: '2016'
+        by_continent: []

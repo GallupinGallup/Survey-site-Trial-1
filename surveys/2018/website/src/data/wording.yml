@@ -1,0 +1,153 @@
+nav:
+    introduction: Introduction
+    connections: Connections
+    overview: Overview
+    other-libraries: Other Libraries
+    conclusion: Conclusion
+    other-tools: Other Tools
+    opinions: Opinions
+    demographics: Demographics
+    support_us: Support Us
+
+    javascript-flavors: JavaScript Flavors
+    front-end-frameworks: Front-end Frameworks
+    data-layer: Data Layer
+    back-end-frameworks: Back-end Frameworks
+    testing: Testing
+    mobile-and-desktop: Mobile & Desktop
+
+tools:
+  angular: Angular
+  native-apps: Native Apps
+  graphql: GraphQL
+  es6: ES6
+  phonegap-cordova: Cordova
+  storybook: StoryBook
+  apollo: Apollo
+
+opinions:
+    legends:
+        never_heard: I've never heard of it
+        not_interested: I've HEARD of it, and am NOT interested
+        interested: I've HEARD of it, and WOULD like to learn it
+        would_use: I've USED it before, and WOULD use it again
+        would_not_use: I've USED it before, and would NOT use it again
+    legends_short:
+        never_heard: Never heard of it
+        not_interested: Heard of it, not interested
+        interested: Heard of it, would like to learn
+        would_use: Used it, would use again
+        would_not_use: Used it, would not use again
+
+reasons:
+    elegant_programming_style_patterns: ⚙️ Elegant programming style & patterns
+    robust_less_error_prone_code: 🐞 Robust, less error-prone code
+    rich_package_ecosystem: 🎁 Rich package ecosystem
+    fast_performance: ⚡ Fast performance
+    well_established_option: 🏛️ Well-established option
+    easy_learning_curve: 👶 Easy learning curve
+    powerful_developer_tooling: 🔧 Powerful developer tooling
+    good_documentation: 📖 Good documentation
+    backed_by_a_great_team_company: 👫 Backed by a great team/company
+    simple_lightweight: 🎈 Simple & lightweight
+    growing_momentum_popularity: 📉 Growing momentum/popularity
+    full_featured_powerful: 🕹️ Full-featured & powerful
+    stable_backwards_compatible: ⚖️ Stable & backwards-compatible
+    clumsy_programming_style: Clumsy programming style ⚙️
+    buggy_error_prone_code: Buggy, error-prone code 🐞
+    poor_performance: Poor performance ⚡
+    small_package_ecosystem: Small package ecosystem 🎁
+    new_untested_option: New untested option 🏛️
+    hard_learning_curve: Hard learning curve 👶
+    lacking_developer_tooling: Lacking developer tooling 🔧
+    bad_documentation: Bad documentation 📖
+    concerns_about_the_team_company: Concerns about the team/company 👫
+    bloated_complex: Bloated & complex 🎈
+    diminishing_momentum_popularity: Diminishing momentum/popularity 📉
+    limited_lacking_in_features: Limited & lacking in features 🕹️
+    fast_changing_breaks_often: Fast-changing & breaks often ⚖️
+    other: Other
+
+charts:
+    overview: Libraries Results
+    overview_description: Per-library survey results.
+    happiness: Overall Happiness
+    other-tools: Other Tools
+    all-libraries: All Libraries
+    quadrant: Quadrant Chart
+    results-over-time: ${tool}'s Popularity Over Time
+    likes: Most Liked Aspects of ${tool}
+    dislikes: Most Disliked Aspects of ${tool}
+    tool-map: ${tool} Usage by Country
+    other-languages: Other Languages
+    browser-apis: Browser APIs
+    build-tools: Build Tools
+    utility-libraries: Utility Libraries
+    text-editors: Text Editors
+    right-direction: JavaScript is moving in the right direction
+    overly-complex: Building JavaScript apps is overly complex right now
+    overused: JavaScript is over-used online
+    enjoy: I enjoy building JavaScript apps
+    main-language: I would like JavaScript to be my main programming language
+    changing-fast: The JavaScript ecosystem is changing too fast
+    too-long: This survey is too damn long!
+    countries: Responses per Country
+    gender: Gender Breakdown
+    salaries: Salaries
+    salaries-map: Salaries per Country
+    experience: Experience
+    company-size: Company Size
+
+shortnames: 
+    javascript-flavors: Flavors
+    front-end-frameworks: Front-end
+    data-layer: Data Layer
+    back-end-frameworks: Back-end
+    testing: Testing
+    mobile-and-desktop: Mobile & Desktop
+    opinions: Opinions
+    demographics: Demographics
+    conclusion: Conclusion
+
+symbols:
+    javascript-flavors: Fv
+    front-end-frameworks: Fe
+    data-layer: Dl
+    back-end-frameworks: Be
+    testing: Te
+    mobile-and-desktop: Mb
+    opinions: Op
+    demographics: Dm
+    conclusion: Cn
+
+intros:
+    javascript-flavors: >
+        As JavaScript matures, developers are starting to look
+        beyond its borders and create various languages and dialects that
+        compile to JavaScript. 
+    front-end-frameworks: >
+        The front-end remains the key battleground for JavaScript. But now
+        that the dust has cleared, it's starting to look like only two
+        combattants are left standing…
+    data-layer: >
+        The data layer regroups all the technologies used to transmit and manage data. 
+        It's a vast category where many approaches compete to make a tricky problem more
+        approachable.
+    back-end-frameworks: >
+        JavaScript on the back-end hasn't seen any major breakthroughs in recent years. 
+        But compared to the rest of the ecosystem's frenetic pace,
+        many will say that this is a blessing, not a curse. 
+    testing: >
+        Testing, testing… Is this thing on? Sorry, I Jest, but I would never want to make a Mocha-ry 
+        of this section. That would be Jasmine (“just mean”? get it?), and that's bad Karma.
+    mobile-and-desktop: >
+        “Any application that can be written in JavaScript, will eventually be written in JavaScript.”
+        JavaScript is not limited to the browser anymore, and it's only
+        a matter of time until your smart toaster burns your bread because NPM is down. 
+    other-tools: >
+        Other tools that didn't quite fit in any other category.
+    opinions: >
+        To find out how developers view the current JavaScript ecosystem, 
+        we asked them how much they agreed or disagreed with the following opinions.
+    demographics: >
+        We wanted to learn more about our survey respondents. 
